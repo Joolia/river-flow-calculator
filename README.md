@@ -8,3 +8,4 @@ The `RiverFlowCalculator` class is designed to calculate the flow rate of a rive
 ## Assumptions
 - Water flows in one direction, and therefore, the velocity cannot be negative.
 - Zero depth is a valid input for the first and the last measurements, indicating that the water level is at ground level in those sections. However, in this case, the velocity cannot be zero.
+- Using average depth values between measurement points allows for a more precise estimation of the flow, considering the irregular curve of the river bottom, compared to using only the depth at the boundary points.
