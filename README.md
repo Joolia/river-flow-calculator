@@ -1,6 +1,7 @@
 # River Flow Calculator
 This solution contains RiverFlowCalculator - a class that calculates the volume of water flowing through a specific point in a stream based on cross-sectional measurements of depth and velocity.
 The `Calculate` method provides an estimation of the flow rate by considering the average depth between measurement points.
+Unit tests are added for verifying calculation and checking input validation.
 
 ## Description 
 The `RiverFlowCalculator` class is designed to calculate the flow rate of a river by taking into account the width of the stream and a series of measurements collected along the cross-sectional area. Each measurement contains the depth and velocity values recorded at specific points across the river.
