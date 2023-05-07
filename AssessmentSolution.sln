@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiverFlowCalculation", "RiverFlowCalculator\RiverFlowCalculation.csproj", "{F4D7B505-2B91-454A-A6F9-CD44EECC0BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{2ABE11BA-C6ED-415E-8974-AD7FB314B690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D7B505-2B91-454A-A6F9-CD44EECC0BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D7B505-2B91-454A-A6F9-CD44EECC0BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D7B505-2B91-454A-A6F9-CD44EECC0BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D7B505-2B91-454A-A6F9-CD44EECC0BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABE11BA-C6ED-415E-8974-AD7FB314B690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABE11BA-C6ED-415E-8974-AD7FB314B690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABE11BA-C6ED-415E-8974-AD7FB314B690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABE11BA-C6ED-415E-8974-AD7FB314B690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F145C5A-7EF2-4277-B2D6-B3338D5B788F}
+	EndGlobalSection
+EndGlobal
